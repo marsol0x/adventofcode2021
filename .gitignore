@@ -1,4 +1,4 @@
-
+adventofcode2021
 # Created by https://www.toptal.com/developers/gitignore/api/go,visualstudiocode,emacs,linux,macos,windows,vim,sublimetext,tags
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,visualstudiocode,emacs,linux,macos,windows,vim,sublimetext,tags
 
@@ -95,7 +95,7 @@ flycheck_*.el
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
 
 # Thumbnails
 ._*
