@@ -1,4 +1,6 @@
 adventofcode2021
+*.sample
+
 # Created by https://www.toptal.com/developers/gitignore/api/go,visualstudiocode,emacs,linux,macos,windows,vim,sublimetext,tags
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,visualstudiocode,emacs,linux,macos,windows,vim,sublimetext,tags
 
