@@ -62,27 +62,24 @@ func Day01Part2() {
 
 	prev := int32(math.MaxInt32)
 	count := 0
-	i := 0
-	a := measurements[i]
-	i++
-	b := measurements[i]
-	i++
-	c := measurements[i]
-	i++
+	start := 0
+	stop := 3
 
-	for i <= len(measurements) {
-		sum := a + b + c
+	for stop <= len(measurements) {
+		window := measurements[start:stop]
+
+		var sum int32
+		for _, i := range(window) {
+			sum += i
+		}
+
 		if sum > prev {
 			count++
 		}
 		prev = sum
 
-		if i < len(measurements) {
-			a = b
-			b = c
-			c = measurements[i]
-		}
-		i++
+		start++
+		stop++
 	}
 
 	fmt.Println("Answer:", count)
